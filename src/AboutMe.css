@@ -1,0 +1,62 @@
+
+/* Body and Navbar Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('static/image2.jpg');  */
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff;
+  }
+  
+  /* Main Content Styles */
+  .container-fluid {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 0;
+  }
+  
+  .App-main {
+    padding: 50px;
+  }
+  
+  /* Section Styles */
+  .App-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Navbar Toggler Icon Color */
+  .navbar-toggler-icon {
+    background-color: #343a40;
+  }
+  
+  /* Navbar Links Color */
+  .navbar-nav .nav-link {
+    color: #343a40;
+  }
+  
+  /* Active Navbar Link Color */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff;
+  }
+  
